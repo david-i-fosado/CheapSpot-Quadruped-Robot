@@ -26,7 +26,7 @@ The system supports teleoperation and autonomous navigation with image-based vis
 - IMU (MPU9250)
 - LiPo 2s battery
 - USB camera (LogitechC920)
-- 3D-printed mechanical parts (👉: https://www.printables.com/model/145053-spotmicro-v2)
+- 3D-printed parts (👉: https://www.printables.com/model/145053-spotmicro-v2)
 
 ---
 
