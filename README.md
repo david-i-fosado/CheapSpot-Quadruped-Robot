@@ -36,7 +36,7 @@ The system supports teleoperation and autonomous navigation with image-based vis
 - Apriltag ROS
 
 ## Documentation
-[📄 Download Official Document](docs/CheapSpot_Report.pdf)
+[📄 Download Official Document](main/CheapSpotSpringerNature.pdf)
 
 ## Video
 Project demonstration:
