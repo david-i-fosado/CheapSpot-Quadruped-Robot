@@ -6,13 +6,13 @@ The system supports teleoperation and autonomous navigation with image-based vis
 ---
 
 ## Key Features
-✔️ 12-servo control using Arduino + PCA9685
-✔️ Main computation on Raspberry Pi (ROS Noetic)
-✔️ USB serial communication between Raspberry Pi ↔ Arduino
-✔️ Teleoperation using a joystick (PS4)
-✔️ Fuzzy PID orientation controller
-✔️ IBVS visual control using a camera and Apriltags
-✔️ Fully 3D-printable structure
+- 12-servo control using Arduino + PCA9685
+- Main computation on Raspberry Pi (ROS Noetic)
+- USB serial communication between Raspberry Pi ↔ Arduino
+- Teleoperation using a joystick (PS4)
+- Fuzzy PID orientation controller
+- IBVS visual control using a camera and Apriltags
+- Fully 3D-printable structure
 
 ---
 
