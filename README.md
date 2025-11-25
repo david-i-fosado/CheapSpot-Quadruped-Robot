@@ -3,6 +3,8 @@
 CheapSpot is a low-cost quadruped robot inspired by Spot Mini, built using a Raspberry Pi, Arduino, PCA9685, servomotors, 3D-printed parts, and an IMU sensor.
 The system supports teleoperation and autonomous navigation with image-based visual servoing (IBVS).
 
+![Demo GIF](cheapspotgif.gif)
+
 ---
 
 ## Key Features
