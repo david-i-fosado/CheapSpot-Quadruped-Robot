@@ -1,0 +1,3 @@
+float32 step_length
+float32 lateral_fraction
+float32 yaw_rate

@@ -1,0 +1,13 @@
+<launch>
+    <!-- Nodo Joy -->
+    <node name="joystick" pkg="joy" type="joy_node" output="screen"/>
+
+    <!-- Nodo control ps4 -->
+    <node pkg="cheapspot" type="telejoy_gait.py" name="ps4_teleop" output="screen"/>
+
+    <!-- Nodo del generador de gaits -->
+    <node pkg="cheapspot" type="gait_spot.py" name="bezier_ik_bridge" output="screen"/>
+
+    <!-- Nodo mover servos -->
+    <node pkg="cheapspot" type="send_servo_commands_floats.py" name="servo_commander" output="screen"/>
+</launch>

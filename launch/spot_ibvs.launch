@@ -1,0 +1,17 @@
+<launch>
+    <!-- Nodo Camara -->
+    <node name="usb_cam" pkg="usb_cam" type="usb_cam_node" output="screen" >    
+        <param name="pixel_format" value="yuyv" />
+    </node>
+
+    <!-- Nodo IBVS -->
+    <node name="ibvs_pose_estimator" pkg="cheapspot" type="ibvs_2.py" output="screen">
+        <param name="tag_size" value="0.13" />
+    </node>
+
+    <!-- Nodo del generador de gaits -->
+    <node pkg="cheapspot" type="gait_ibvs.py" name="bezier_ik_bridge" output="screen"/>
+
+    <!-- Nodo mover servos -->
+    <node pkg="cheapspot" type="send_servo_commands_floats.py" name="servo_commander" output="screen"/>
+</launch>

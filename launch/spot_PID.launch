@@ -1,0 +1,7 @@
+<launch>
+    <!-- Nodo de balance PID -->
+    <node pkg="cheapspot" type="spot_PID.py" name="balance_controller" output="screen"/>
+
+    <!-- Nodo de IMU -->
+    <node pkg="cheapspot" type="IMU_3.py" name="imu_node" output="screen"/>
+</launch>

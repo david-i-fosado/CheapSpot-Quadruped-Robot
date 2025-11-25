@@ -1,0 +1,7 @@
+<launch>
+    <!-- Nodo del generador de gaits -->
+    <node pkg="cheapspot" type="gait_spot.py" name="bezier_ik_bridge" output="screen"/>
+
+    <!-- Nodo mover servos -->
+    <node pkg="cheapspot" type="send_servo_commands_floats.py" name="servo_commander" output="screen"/>
+</launch>

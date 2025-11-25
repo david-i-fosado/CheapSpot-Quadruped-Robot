@@ -1,0 +1,11 @@
+<launch>
+    <!-- Nodo de balance Fuzzy PID -->
+    <node pkg="cheapspot" type="nodo_control_pid.py" name="pid_control_node" output="screen"/>
+
+    <!-- Nodo de balance Fuzzy PID -->
+    <node pkg="cheapspot" type="nodo_fuzzy_tuner.py" name="fuzzy_tuner_node" output="screen"/>
+
+    <!-- Nodo de IMU -->
+    <node pkg="cheapspot" type="IMU_3.py" name="imu_node" output="screen"/>
+</launch>
+
