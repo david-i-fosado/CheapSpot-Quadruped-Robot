@@ -18,7 +18,7 @@ The system supports teleoperation and autonomous navigation with image-based vis
 
 ---
 
-## Hardware Used
+## Hardware
 - Raspberry Pi 4
 - Arduino Uno
 - PCA9685 16-channel PWM driver
@@ -30,7 +30,7 @@ The system supports teleoperation and autonomous navigation with image-based vis
 
 ---
 
-## Software Stack
+## Software
 - ROS Noetic
 - Python 3
 - Arduino IDE
