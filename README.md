@@ -42,4 +42,5 @@ The system supports teleoperation and autonomous navigation with image-based vis
 
 ## Video
 Project demonstration:
+
 [![Video](https://img.youtube.com/vi/dBfq67AseLw/hqdefault.jpg)](https://youtu.be/dBfq67AseLw)
